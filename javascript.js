@@ -29,6 +29,35 @@
 
 
 
-               
+                // Primitive Types
+                    // Strings
+                    // Numbers
+                    // Boolean
+                    // undefined
+                    // null
 
-                
+let name = "Mosh"; // String Literal
+let age = 30; // Number Literal
+let isApproved = false; // Boolean Literal
+let firstName; // let firstName = undefined;
+let lastName = null; // Can be used when you want to clear the value of a variable
+
+                // Reference Types
+                    // Object
+                    // Array
+                    // Function
+
+let person = {      // Object Literal
+    name: "Mosh",   //key-value pair or property-string pair
+    age: 30         //key-value pair or property-string pair
+}; 
+
+
+// Dot Notation
+person.name = "John";
+
+// Bracket Notation
+let slection = "name";
+person[slection] = "Mary";
+
+   console.log(person.name);             
