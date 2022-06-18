@@ -95,17 +95,69 @@
 
 
 // Functions-------------------------------------------------------------------------------------------------------------
-function greet() {
-    console.log("Hello World");
-}
+// A function is a set of statements that performs a task or calculates a value
 
-greet();
+// function greet() {  //function declares a function, greet is the name you are giving the function, parentheses() are part of the syntax for declaring functions, and the curly braces {} contain the body of the function
+//     console.log("Hello World");
+// }
 
-function greet(name, lastName) {
-  console.log("Hello "+ name + " " + lastName);
-}
+//greet();
 
-greet("Alan", "Stuart");
-greet("Jerry", "Sloan");
-greet("Sarah", "McClaughlin");
-greet("Julie", "Tuttles");
+// Performing a task
+// function greet(name, lastName) { //name and lastName are parameters of the greet() function
+//   console.log("Hello "+ name + " " + lastName);
+// }                              //function declarations don't need to end in ; only statements DO end in ;
+
+
+// // Calculating a value
+// function square(number) {
+//   return number * number;
+// }
+
+// let number = square(2); // We can declare a variable number and set it square(2)
+// console.log(number);
+
+// //or
+
+// console.log(square(2)); // We can directly display square(2) by passing it into consol.log() and exclude creating a variable for number
+
+// greet("Alan", "Stuart");   // these are function statements and end with ;
+// greet("Jerry", "Sloan");  // Alan, Stuart, Sarah, Julie, Sloan, etc. are arguments of the greet() function
+// greet("Sarah", "McClaughlin");
+// greet("Julie", "Tuttles");
+
+                      // A parameter is a named variable passed into a function
+                     // An argument is the actual value that we supply for that parameter
+
+// Operators--------------------------------------------------------------------------------------
+
+     // Arithmetic
+    // Assignment
+   // Comparison
+  // Logical
+ // Bitwise 
+
+// Arithmetic Operators---------------------------------------------------------------------------------------------------------------------
+
+// let x = 10;
+
+// let y = 3;
+
+// console.log(x + y); // Addition Operators
+// console.log(x - y); // Subtraction Operators
+// console.log(x * y); // Multiplication Operators
+// console.log(x / y); // Division Operators
+// console.log(x % y); // Remainder of Division Operators (modulo)
+// console.log(x ** y); // Exponentiation Operators (to the power of)
+
+// // Increment Operators (++)
+// console.log(++x);  // This means x will be incremented by 1 first and will show on console.log()
+// console.log(x++); // This means x will display on the console.log first and then will increase by one
+// console.log(x);  // This asking what x is now that it has increased by 1 in the previous line
+
+// // Decrement Operators (--)
+// console.log(--x);    // This means the console will subtract in decrements of 1 from x before displaying x
+// console.log(x--);   // This means the console will display the current value of x and then subtract in decrements of 1
+// console.log(x);    // This means the console will display the current value of x after reading through previous lines of javascript
+
+// Assignment Operators---------------------------------------------------------------------------------------------------------------------
