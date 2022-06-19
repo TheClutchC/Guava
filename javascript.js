@@ -161,3 +161,122 @@
 // console.log(x);    // This means the console will display the current value of x after reading through previous lines of javascript
 
 // Assignment Operators---------------------------------------------------------------------------------------------------------------------
+
+
+// let x = 10;       // assigning the number 10 to variable x
+// console.log(x);   //  x = 10     ---↴
+
+// x++;              // x with an increment of 1
+// console.log(x);   //  x = x+1 = 10+1 = 11      ---↴
+
+// x = x + 3;        // this is what x++ is in longform
+// console.log(x);   //  x = x+3 = 11+3 = 14      ---↴
+
+// x = x + 5         // x 
+// console.log(x);   //  x = x+5 = 14+5 = 19      ---↴
+
+// x += 17;          // Addition Assignment Operator
+// console.log(x);   //  x = x+17 = 19+17 = 36      ---↴
+
+// x = x * 3;        // Longform way of writing x *= 3
+// console.log(x);   //  x = x*3 = 36*3 = 108     ---↴
+
+// x *= 2;           // Multiplication Assignment Operator
+// console.log(x);   //  x = x*2 = 108*2 = 216      ---↴
+
+// x -= 16;          // Subtraction Assignment Operator
+// console.log(x);   //  x = x-16 = 216-16 = 200      ---↴
+
+// x /= 2;           // Division Assignment Operator
+// console.log(x);   //  x = x/2 = 200/2 = 100      ---↴
+
+// x %= 6;           // Remainder of Division Assignment Operator
+// console.log(x);   //  x = x%6 = 100%6 = 4      ---↴
+
+// x **= 3;          // Exponentiation Assignment Operator
+// console.log(x);   //  x = x**3 = 4**3 = 64
+
+
+// Comparison Operators--------------------------------------------------------
+
+// let x = 1;
+// console.log(x);
+
+// // Relational
+// console.log(x > 0);     // x is greater than 0 (true)
+// console.log(x >= 1);    // x is greater than or equal to 1 (true)
+// console.log(x < 1);     // x is less than 1 (false)
+// console.log(x <= 1);    // x is less than or equal to 1 (true)
+
+// // Equality
+// console.log(x === 1);   // x IS equal to 1 (true)
+// console.log(x !== 1);   // x is NOT equal to 1 (false)
+
+
+// Equality Operators--------------------------------------------------
+
+// Strict Equality (Same Type and Same Value)
+// console.log(1 === 1);   // Both number types, both 1 (true)
+// console.log("1" === 1); // Both are 1, but one is string and other is number type (false)
+
+// // Loose Equality (Same Value)  -will convert right comparison type to match left comparison type and see if they match in value
+// console.log(1 == 1);    // Both are 1 (true)
+// console.log("1" == 1);  // Becomes "1" == "1" by converting number on right to string, making both a value of "1" (true)
+// console.log(true == 1); // 1 becomes boolean type true, true == true (true)
+// try different numbers in above console.log(true == 1); for example 0, -7, NaN, undefined, 2.6
+
+
+// Ternary (or Conditional) Operators-----------------------------------------------------------------------------------------------------------------
+
+// If a customer has more than 100 points,
+// they are a "gold" customer, otherwise,
+// they are a "silver" customer.
+
+// let points = 110;
+// let type = points > 100 ? "gold" : "silver";
+// console.log(type);
+
+// points = 78;
+// type = points > 100 ? "gold" : "silver";
+// console.log(type);
+
+
+// Logical Operators with Booleans----------------------------------------------
+
+
+// 1. Logical AND (&&)
+// Returns true if both operands are true
+
+// console.log(false && true);    // both are NOT true so this is false
+// console.log(true && true);    // both ARE true so this true
+// console.log(false && false); // neither are true so this definitely false
+
+// let highIncome = true;
+// let goodCreditScore = true;
+// let eligibleForLoan = highIncome && goodCreditScore;
+// console.log(eligibleForLoan);  // both are true so this is true
+
+
+// 2. Logical OR (||)
+// Returns true if one or more of the operands is true
+
+// console.log(true || true);     // both are true so this is true
+// console.log(false || true);   // at least one is true so this is true
+// console.log(false || false); // neither is true so this is false
+
+// let highIncome = false;
+// let goodCreditScore = true;
+// let eligibleForLoan = highIncome || goodCreditScore;
+// console.log(eligibleForLoan); // only one has to be true so this is true
+
+
+// 3. Not (!)
+// Returns true if 
+
+// let highIncome = false;
+// let goodCreditScore = false;
+// let eligibleForLoan = highIncome || goodCreditScore;
+// console.log("Eligible", eligibleForLoan);
+
+// let applicationRefused = !eligibleForLoan;
+// console.log("Application Refused", applicationRefused);
