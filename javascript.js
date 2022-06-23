@@ -125,6 +125,10 @@
 // greet("Jerry", "Sloan");  // Alan, Stuart, Sarah, Julie, Sloan, etc. are arguments of the greet() function
 // greet("Sarah", "McClaughlin");
 // greet("Julie", "Tuttles");
+// greet("Jason", "Momoa");
+// greet("Zacharius", "Liston");
+// greet("Ali", "Perej");
+// greet("Princessa", "Kelsef");
 
                       // A parameter is a named variable passed into a function
                      // An argument is the actual value that we supply for that parameter
