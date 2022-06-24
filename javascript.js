@@ -300,3 +300,8 @@
 
 // Short-circuiting: When a logical operator stops after finding a truthy or true operand
 
+let userColor = "red";
+let defaultColor = "blue";
+let currentColor = userColor || defaultColor;
+
+console.log(currentColor); // will return red
