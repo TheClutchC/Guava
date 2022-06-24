@@ -284,3 +284,19 @@
 
 // let applicationRefused = !eligibleForLoan;
 // console.log("Application Refused", applicationRefused);
+
+
+// Logical Operators with Non-booleans----------------------------------------------------
+
+
+      // Falsy (false)
+     // undefined
+    // null
+   // 0
+  // false
+ // ''
+// NaN
+     // Anything that is not falsy -> Truthy
+
+// Short-circuiting: When a logical operator stops after finding a truthy or true operand
+
