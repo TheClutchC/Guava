@@ -338,4 +338,13 @@
 // Operator Precedence-----------------------------------------------------
 
 
-let x = 2 + 3 *4; //PEMDAS BRO!!!
+//let x = 2 + 3 *4; //PEMDAS BRO!!!
+
+// let a = "red";   // a is red
+// let b = "blue"; // b is blue
+
+// // try to swap a and b
+
+// let c = a; // declare "c" as "a" which is red; "c" is now red
+// a = b;    // declare "a" as "b"; "a" is now blue
+// b = c;   // declare "b" as "c"; "b" is now red
