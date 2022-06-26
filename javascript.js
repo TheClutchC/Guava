@@ -300,8 +300,36 @@
 
 // Short-circuiting: When a logical operator stops after finding a truthy or true operand
 
-let userColor = "red";
-let defaultColor = "blue";
-let currentColor = userColor || defaultColor;
+// let userColor = "red";
+// let defaultColor = "blue";
+// let currentColor = userColor || defaultColor;
 
-console.log(currentColor); // will return red
+// console.log(currentColor); // will return red
+
+
+// Bitwise Operators-------------------------------------------------------------------------------
+
+
+// 1 = 00000001   // seven 0's followed by a 1= 8bits = 1 byte of data in a computer
+// 2 = 00000010
+// 3 = 00000011
+// 0 = 00000000
+
+// Read, Write, and Execute
+// 00000100 // User can Read
+// 00000110 // User can read and write
+// 00000111 // User can read, write, and execute
+// console.log(1 | 2);  // Bitwise OR
+// console.log(1 & 2);  // Bitwise AND
+
+// const readPermission = 4;
+// const writePermission = 2;
+// const executePermission = 1;
+
+// let myPermission = 0;
+// myPermission = myPermission | readPermission | writePermission;
+// console.log(myPermission);
+
+// let message = (myPermission & readPermission) ? "yes": "no";
+
+// console.log(message);
