@@ -348,3 +348,19 @@
 // let c = a; // declare "c" as "a" which is red; "c" is now red
 // a = b;    // declare "a" as "b"; "a" is now blue
 // b = c;   // declare "b" as "c"; "b" is now red
+
+
+// Logic Practice: Greeting for different times of day
+// Hours 6 a.m.-12 p.m., 12 p.m.-6 p.m., 6 p.m.-11 p.m., 12 a.m.-3 a.m., 3 a.m.- 5 a.m. 
+
+// let hour = 10;
+
+// if (hour >= 6 && hour < 12) {
+//      console.log("Good morning!"); // displays this if time is between 0600 and 1159
+// }
+// else if (hour >= 12 && hour < 18) {
+//      console.log("Good afternoon!"); // displays this between 1200 and 1759
+// }
+// else {
+//      console.log("Good Evening!"); // displays this from 1800 all the way to 0559
+// };
