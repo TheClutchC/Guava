@@ -333,3 +333,9 @@
 // let message = (myPermission & readPermission) ? "yes": "no";
 
 // console.log(message);
+
+
+// Operator Precedence-----------------------------------------------------
+
+
+let x = 2 + 3 *4; //PEMDAS BRO!!!
