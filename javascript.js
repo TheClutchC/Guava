@@ -364,3 +364,18 @@
 // else {
 //      console.log("Good Evening!"); // displays this from 1800 all the way to 0559
 // };
+
+let role = "guest";
+
+switch(role) {
+     case "guest":
+          console.log("Guest User");
+          break;
+ 
+     case "moderator":
+          console.log("Moderator User");
+          break;
+     
+     default:
+          console.log("Unknown User");
+}
