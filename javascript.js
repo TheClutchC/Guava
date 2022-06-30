@@ -379,3 +379,25 @@ switch(role) {
      default:
           console.log("Unknown User");
 }
+
+
+// console.log("Hello World"); // This works but is ugly
+// console.log("Hello World");
+// console.log("Hello World");
+// console.log("Hello World");
+// console.log("Hello World");
+
+           // ------------Types of loops------------------------
+          // For
+         // While
+        // Do...While
+       // For...in
+      // For...of
+     
+// for (initialExpression; condition; incrementExpression) {
+//     statement;
+//}
+
+for (let i = 0; i < 5; i++) {
+     console.log("Hello World");
+}
