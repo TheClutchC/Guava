@@ -398,18 +398,27 @@
 //     statement;
 //}
 
-for (let i = 0; i < 5; i++) {           // i equals 0; whenever i is less than 5, log value of i, log string "Hello World"; increase value of i by 1 each time until rule is met
-     console.log(i);
-     console.log("Hello World");
-}
+// for (let i = 0; i < 5; i++) {           // i equals 0; whenever i is less than 5, log value of i, log string "Hello World"; increase value of i by 1 each time until rule is met
+//      console.log(i);
+//      console.log("Hello World");
+// }
 
 // i++ is the same as i+=1
 // increments of more than 1 can be written as x+=2 or any other positive number
 
-let i = 0;
+// while loop
+//  let i = 0;
 
-while (i <= 5) {
-     if (i %2 !== 0)
-     console.log(i);
-     i++;
-}
+//  while (i <= 5) {
+//       if (i %2 !== 0)
+//       console.log(i);
+//       i++;
+//  }
+
+// do while loop
+// let i = 9;
+// do {
+     // if (i %2 !== 0)
+     // console.log(i);
+     // i++;
+// } while (i <= 5);
