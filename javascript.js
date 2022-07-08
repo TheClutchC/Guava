@@ -425,26 +425,39 @@
 
 
 // for in loop
-const person = {
-     name: "Mosh",
-     age: 30
-};
+// const person = {
+//      name: "Mosh",
+//      age: 30
+// };
 
-for (let key in person)
-     console.log(key, person[key]);
+// for (let key in person)
+//      console.log(key, person[key]);
 
-// Dot Notation
-person.name
+// // Dot Notation
+// person.name
 
-// Bracket Notation
-person["name"]
+// // Bracket Notation
+// person["name"]
 
-const colors = ["red", "green", "blue", "yellow"];
+// const colors = ["red", "green", "blue", "yellow"];
 
-for (let index in colors)
-     console.log(index, colors[index]);
+// for (let index in colors)
+//      console.log(index, colors[index]);
 
 
-// for of loop
-for (let color of colors)
-     console.log(color);
+// // for of loop
+// for (let color of colors)
+//      console.log(color);
+
+
+// Break and Continue
+// let i = 0;
+// while (i <= 10) {
+//     // if (i === 5) break;
+//     if(i % 2 === 0) {
+//         i++;
+//         continue;
+//     }
+//     console.log(i);
+//     i++;
+// }
