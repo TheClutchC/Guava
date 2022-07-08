@@ -422,3 +422,29 @@
      // console.log(i);
      // i++;
 // } while (i <= 5);
+
+
+// for in loop
+const person = {
+     name: "Mosh",
+     age: 30
+};
+
+for (let key in person)
+     console.log(key, person[key]);
+
+// Dot Notation
+person.name
+
+// Bracket Notation
+person["name"]
+
+const colors = ["red", "green", "blue", "yellow"];
+
+for (let index in colors)
+     console.log(index, colors[index]);
+
+
+// for of loop
+for (let color of colors)
+     console.log(color);
