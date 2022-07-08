@@ -461,3 +461,14 @@
 //     console.log(i);
 //     i++;
 // }
+
+// let number = max(90, 67);
+// console.log(number);
+
+// function max(a, b) {
+//     // if (a > b) return a;
+//     // if a is greater than b, than the code will not read the next line. So you don't need to use else on the next line
+//     // return b;
+
+//     return (a > b) ? a : b; // This line does the same thing as up above but with cleaner code
+// }
