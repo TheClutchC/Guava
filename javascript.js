@@ -472,3 +472,13 @@
 
 //     return (a > b) ? a : b; // This line does the same thing as up above but with cleaner code
 // }
+
+
+console.log(isLandscape(90, 67));
+
+function isLandscape(width, height) {
+   // if (width > height) return true;
+   // else return false;
+
+    return (width > height);
+}
