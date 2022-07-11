@@ -474,11 +474,62 @@
 // }
 
 
-console.log(isLandscape(90, 67));
+// console.log(isLandscape(90, 67));
 
-function isLandscape(width, height) {
-   // if (width > height) return true;
-   // else return false;
+// function isLandscape(width, height) {
+//    // if (width > height) return true;
+//    // else return false;
 
-    return (width > height);
+//     return (width > height);
+// }
+
+
+// fizzBuzz
+// Divisible by 3, get Fizz
+// Divisible by 5, get Buzz
+// Divisible by both, get fizzBuzz
+// If neither, return same number
+// Not a number, return "Not a number"
+
+// const output = fizzBuzz();
+
+// function fizzBuzz(input) {
+//     if(typeof input !== "number")
+//     console.log("Not a number!");
+
+//     else if((input % 3 !== 0) && (input % 5 !== 0))
+//     console.log(input);
+
+//     else if((input % 3 === 0) && (input % 5 === 0))
+//     console.log("FizzBuzz");
+
+//     else if(input % 3 === 0)
+//     console.log("Fizz");
+
+//     else if(input % 5 === 0)
+//     console.log("Buzz");
+
+// }
+
+
+// Orrrrr............ this also works
+
+
+const output = fizzBuzz();
+console.log(output);
+
+function fizzBuzz(input) {
+    if(typeof input !== "number")
+        return NaN; 
+        
+        if((input % 3 === 0) && (input % 5 === 0))
+        return "FizzBuzz";
+        
+        if(input % 3 === 0)
+        return "Fizz";
+        
+        if(input % 5 === 0)
+        return "Buzz";
+        
+    return input;
 }
