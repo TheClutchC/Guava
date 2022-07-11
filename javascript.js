@@ -483,6 +483,7 @@
 //     return (width > height);
 // }
 
+//-------------------------------------------------------------------------------------
 
 // fizzBuzz
 // Divisible by 3, get Fizz
@@ -515,21 +516,92 @@
 // Orrrrr............ this also works
 
 
-const output = fizzBuzz();
-console.log(output);
+// const output = fizzBuzz();
+// console.log(output);
 
-function fizzBuzz(input) {
-    if(typeof input !== "number")
-        return NaN; 
+// function fizzBuzz(input) {
+//     if(typeof input !== "number")
+//         return NaN; 
         
-        if((input % 3 === 0) && (input % 5 === 0))
-        return "FizzBuzz";
+//         if((input % 3 === 0) && (input % 5 === 0))
+//         return "FizzBuzz";
         
-        if(input % 3 === 0)
-        return "Fizz";
+//         if(input % 3 === 0)
+//         return "Fizz";
         
-        if(input % 5 === 0)
-        return "Buzz";
+//         if(input % 5 === 0)
+//         return "Buzz";
         
-    return input;
-}
+//     return input;
+// }
+
+//-------------------------------------------------------------------------------------------------------------------
+
+   // Speed limit is 70 km/hr
+  // Every 5 km/hr over is 1 point
+ // use function Math.floor() to round to nearest integer
+// anything more than 12 points gets your license suspended (> 130 km/hr)
+
+// const radar = checkSpeed();
+// console.log(radar);
+
+// function checkSpeed(speed) {
+//      if(speed >= 130)
+//      return "License suspended";
+     
+//      if(speed <= 70)
+//      return "Ok";
+
+//      if((speed >= 75) && (speed < 80))
+//      return "1 point";
+
+//      if((speed >= 80) && (speed < 85))
+//      return "2 points";
+
+//      if((speed >= 85) && (speed < 90))
+//      return "3 points";
+
+//      if((speed >= 90) && (speed < 95))
+//      return "4 points";
+
+//      if((speed >= 95) && (speed < 100))
+//      return "5 points";
+
+//      if((speed >= 100) && (speed < 105))
+//      return "6 points";
+
+//      if((speed >= 105) && (speed < 110))
+//      return "7 points";
+
+//      if((speed >= 110) && (speed < 115))
+//      return "8 points";
+
+//      if((speed >= 115) && (speed < 120))
+//      return "9 points";
+
+//      if((speed >= 120) && (speed < 125))
+//      return "10 points";
+
+//      if((speed >= 125) && (speed < 130))
+//      return "11 points";
+// }
+
+// Orrrr this too.............
+
+// checkSpeed(70);
+
+// function checkSpeed(speed) {
+//   const speedLimit = 70;
+//   const kmPerPoint = 5;
+
+//   if(speed < speedLimit + kmPerPoint) {
+//     console.log("Ok");
+//     return;
+// }
+//   const points = Math.floor((speed - speedLimit) / kmPerPoint);
+
+//   if(points >= 12)
+//     console.log("License suspended");
+//   else 
+//     console.log("Points", points);
+// }
