@@ -625,15 +625,41 @@
 //      }
 // }
 
-let radius = 1;
-let x = 1;
-let y = 1;
 
-const circle = {
-     radius : 1,
-     location: {
-          x: 1,
-          y: 1
-     },
-     isVisible: true
-};
+// Object-oriented Programming (OOP)-------------------------------------------------
+
+// let radius = 1;
+// let x = 1;
+// let y = 1;
+
+
+// const circle = {
+//      radius : 1,
+//      location: {
+//           x: 1,
+//           y: 1
+//      },
+//      isVisible: true
+//      draw: function() {
+//           console.log("draw");
+//      }
+// };
+
+// circle.draw(); // Method
+
+
+// Factory Function
+// function createCircle(radius, location) {
+//      return {
+//           radius,
+//           draw() {                      // Writing it like this means if you have to refactor this code it exists only in one spot
+//                console.log("draw");
+//           }
+//      };
+// }
+
+// const circle1 = createCircle(1);
+// console.log(circle1);
+
+// const circle2 = createCircle(2);
+// console.log(circle2);
