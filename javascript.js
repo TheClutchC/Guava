@@ -613,14 +613,27 @@
 //
 //
 
-showNumbers(10);
+// showNumbers(10);
 
-function showNumbers(limit) {
-     for (let i = 0; i <= limit; i++) {
+// function showNumbers(limit) {
+//      for (let i = 0; i <= limit; i++) {
 
-          if(i % 2 === 0)
-               console.log(i, "EVEN");
-          else
-               console.log(i, "ODD");
-     }
-}
+//           if(i % 2 === 0)
+//                console.log(i, "EVEN");
+//           else
+//                console.log(i, "ODD");
+//      }
+// }
+
+let radius = 1;
+let x = 1;
+let y = 1;
+
+const circle = {
+     radius : 1,
+     location: {
+          x: 1,
+          y: 1
+     },
+     isVisible: true
+};
