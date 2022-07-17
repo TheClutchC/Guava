@@ -663,3 +663,17 @@
 
 // const circle2 = createCircle(2);
 // console.log(circle2);
+
+// Constructor Function
+function Circle(radius) {
+     this.radius = radius;
+     this.draw = function() {
+          console.log("draw");
+     }
+}
+
+const Circle = new Circle(1);
+const x = {};
+
+// Camel Notation: oneTwoThreeFour
+// Pascal Notation: OneTwoThreeFour
