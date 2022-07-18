@@ -665,15 +665,28 @@
 // console.log(circle2);
 
 // Constructor Function
-function Circle(radius) {
-     this.radius = radius;
-     this.draw = function() {
-          console.log("draw");
-     }
-}
+// function Circle(radius) {
+//      this.radius = radius;
+//      this.draw = function() {
+//           console.log("draw");
+//      }
+// }
 
-const Circle = new Circle(1);
-const x = {};
+// const Circle = new Circle(1);
+// const x = {};
 
 // Camel Notation: oneTwoThreeFour
 // Pascal Notation: OneTwoThreeFour
+
+
+const circle = { 
+     radius: 1
+};
+
+circle.color = "yellow";
+circle.draw = function() {}
+
+delete circle.color;
+delete circle.draw;
+
+console.log(circle);
