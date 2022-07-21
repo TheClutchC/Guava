@@ -663,3 +663,16 @@
 
 // const circle2 = createCircle(2);
 // console.log(circle2);
+
+
+// Value vs. Reference Types-----------------------------------------------------------------------------------------
+
+let x = { value :10 };
+let y = x;
+x.value = 20;
+console.log(y);
+
+x = 20;
+y = x;
+x.value = 30;
+console.log(y);
