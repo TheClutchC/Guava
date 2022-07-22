@@ -492,25 +492,25 @@
 // If neither, return same number
 // Not a number, return "Not a number"
 
-// const output = fizzBuzz();
+//  const output = fizzBuzz();
 
-// function fizzBuzz(input) {
-//     if(typeof input !== "number")
-//     console.log("Not a number!");
+//  function fizzBuzz(input) {
+//      if(typeof input !== "number")
+//      console.log("Not a number!");
 
-//     else if((input % 3 !== 0) && (input % 5 !== 0))
-//     console.log(input);
+//      else if((input % 3 !== 0) && (input % 5 !== 0))
+//      console.log(input);
 
-//     else if((input % 3 === 0) && (input % 5 === 0))
-//     console.log("FizzBuzz");
+//      else if((input % 3 === 0) && (input % 5 === 0))
+//      console.log("FizzBuzz");
 
-//     else if(input % 3 === 0)
-//     console.log("Fizz");
+//      else if(input % 3 === 0)
+//      console.log("Fizz");
 
-//     else if(input % 5 === 0)
-//     console.log("Buzz");
+//      else if(input % 5 === 0)
+//      console.log("Buzz");
 
-// }
+//  }
 
 
 // Orrrrr............ this also works
@@ -667,15 +667,15 @@
 
 // Value vs. Reference Types-----------------------------------------------------------------------------------------
 
-let x = { value :10 };
-let y = x;
-x.value = 20;
-console.log(y);
+// let x = { value :10 };
+// let y = x;
+// x.value = 20;
+// console.log(y);
 
-x = 20;
-y = x;
-x.value = 30;
-console.log(y);
+// x = 20;
+// y = x;
+// x.value = 30;
+// console.log(y);
 // Constructor Function
 // function Circle(radius) {
 //      this.radius = radius;
@@ -704,6 +704,41 @@ console.log(y);
 // console.log(circle);
 
 
-new String();   // '', "", ``
-new Boolean(); // true, false
-new Number(); // 1, 2, 3, ...
+// new String();   // '', "", ``
+// new Boolean(); // true, false
+// new Number(); // 1, 2, 3, ...
+
+
+
+// write a user's input and return it as a string
+// User answers their name
+// first letter of name capitalized
+
+// let name = prompt("What is your name?"):
+// console.log()
+
+// prompt("What is your name?") : str
+//  let firstName = "macus";
+//  let lastName = "desir";
+//  let customerName = (firstName +" " + lastName);
+// console.log(customerName);
+
+ function client(name) {
+      name = window.prompt("What's your name?")
+      name.charAt(0).toUpperCase();
+      console.log(name);
+     
+
+ }
+
+ client();
+
+// const readline = require('readline').createInterface({
+//      input: process.stdin,
+//      output: process.stdout
+//    });
+   
+//    readline.question('Who are you?', name => {
+//      console.log(`Hey there ${name}!`);
+//      readline.close();
+//    });
