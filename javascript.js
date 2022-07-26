@@ -723,15 +723,15 @@
 //  let customerName = (firstName +" " + lastName);
 // console.log(customerName);
 
- function client(name) {
-      name = window.prompt("What's your name?")
-      name.charAt(0).toUpperCase();
-      console.log(name);
+//  function client(name) {
+//       name = window.prompt("What's your name?")
+//       name.charAt(0).toUpperCase();
+//       console.log(name);
      
 
- }
+//  }
 
- client();
+//  client();
 
 // const readline = require('readline').createInterface({
 //      input: process.stdin,
@@ -742,3 +742,23 @@
 //      console.log(`Hey there ${name}!`);
 //      readline.close();
 //    });
+
+
+// Value vs Reference Types--------------------------------------------------
+
+     // Value Types
+         // Number
+        // String
+       // Boolean
+      // Symbol
+     // undefined
+    // null
+
+    // Reference Types
+          // Object
+         // Function
+        // Array
+let x = { value: 10 };
+let y = x;
+
+x.value = 20;
