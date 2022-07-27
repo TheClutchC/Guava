@@ -758,7 +758,17 @@
           // Object
          // Function
         // Array
-let x = { value: 10 };
-let y = x;
+// let x = { value: 10 };
+// let y = x;
 
-x.value = 20;
+// x.value = 20;
+
+
+// Cloning an Object
+
+const circle = {
+     radius: 1,
+     draw() {
+          console.log("draw");
+     }
+};
