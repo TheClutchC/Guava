@@ -764,7 +764,8 @@
 // x.value = 20;
 
 
-// Cloning an Object
+
+// Cloning an Object------------------------------------------------------
 
 const circle = {
      radius: 1,
@@ -772,3 +773,27 @@ const circle = {
           console.log("draw");
      }
 };
+
+const another = {};
+
+for (let key in circle)
+     another [key] = circle[key];
+
+console.log(another);
+
+
+
+// Create my own Object-----------------------------------------------
+// All my favorite things
+
+const myFavorite = {
+     iceCream: "vanilla",
+     videoGame: "Madden 08 PC",
+     number: 19,
+     hybridVehicle: "Hyundai Ioniq",
+     currentMusician: "Jenevieve",
+     year: 1998,
+     sport: "basketball"
+};
+
+console.log(myFavorite)
