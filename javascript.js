@@ -796,4 +796,15 @@ const myFavorite = {
      sport: "basketball"
 };
 
-console.log(myFavorite)
+console.log(myFavorite);
+
+let vegetable = tomato;
+
+function tomato() {
+     
+}
+if(vegetable === tomato)
+console.log("This is a tomato");
+
+else
+console.log("This isn't a tomato!");
