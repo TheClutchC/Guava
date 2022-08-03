@@ -816,16 +816,31 @@ console.log("This isn't a tomato!");
 // zipCode
 // showAddress(adress)
 
-const address = {
-     street: "506 Calcutta Way",
-     city: "Walla Walla",
-     zipCode: "47231"
+// const address = {
+//      street: "506 Calcutta Way",
+//      city: "Walla Walla",
+//      zipCode: "47231"
+// };
+
+// function showAddress(address) {
+//      for (let key in address)
+//           console.log(key, address[key]);
+// }
+
+// showAddress(address); // This solution uses the object literal syntax
+
+
+// Same Problem Above Using Factory Function
+
+const address = createAddress("a", "b", "c");
+console.log(address);
+
+// Factory Function
+function createAddress(street, city, zipCode) {
+     return {
+          street,
+          city,
+          zipCode
+     };
 };
-
-function showAddress(address) {
-     for (let key in address)
-          console.log(key, address[key]);
-}
-
-showAddress(address);
      
