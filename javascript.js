@@ -808,3 +808,24 @@ console.log("This is a tomato");
 
 else
 console.log("This isn't a tomato!");
+
+// Object Exercise 1: Address Object
+
+// street
+// city
+// zipCode
+// showAddress(adress)
+
+const address = {
+     street: "506 Calcutta Way",
+     city: "Walla Walla",
+     zipCode: "47231"
+};
+
+function showAddress(address) {
+     for (let key in address)
+          console.log(key, address[key]);
+}
+
+showAddress(address);
+     
