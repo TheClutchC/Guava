@@ -767,49 +767,49 @@
 
 // Cloning an Object------------------------------------------------------
 
-const circle = {
-     radius: 1,
-     draw() {
-          console.log("draw");
-     }
-};
+// const circle = {
+//      radius: 1,
+//      draw() {
+//           console.log("draw");
+//      }
+// };
 
-const another = {};
+// const another = {};
 
-for (let key in circle)
-     another [key] = circle[key];
+// for (let key in circle)
+//      another [key] = circle[key];
 
-console.log(another);
+// console.log(another);
 
 
 
-// Create my own Object-----------------------------------------------
-// All my favorite things
+// // Create my own Object-----------------------------------------------
+// // All my favorite things
 
-const myFavorite = {
-     iceCream: "vanilla",
-     videoGame: "Madden 08 PC",
-     number: 19,
-     hybridVehicle: "Hyundai Ioniq",
-     currentMusician: "Jenevieve",
-     year: 1998,
-     sport: "basketball"
-};
+// const myFavorite = {
+//      iceCream: "vanilla",
+//      videoGame: "Madden 08 PC",
+//      number: 19,
+//      hybridVehicle: "Hyundai Ioniq",
+//      currentMusician: "Jenevieve",
+//      year: 1998,
+//      sport: "basketball"
+// };
 
-console.log(myFavorite);
+// console.log(myFavorite);
 
-let vegetable = tomato;
+// let vegetable = tomato;
 
-function tomato() {
+// function tomato() {
      
-}
-if(vegetable === tomato)
-console.log("This is a tomato");
+// }
+// if(vegetable === tomato)
+// console.log("This is a tomato");
 
-else
-console.log("This isn't a tomato!");
+// else
+// console.log("This isn't a tomato!");
 
-// Object Exercise 1: Address Object
+// Object Exercise 1: Address Object------------------------------------------------------------------
 
 // street
 // city
@@ -832,15 +832,25 @@ console.log("This isn't a tomato!");
 
 // Same Problem Above Using Factory Function
 
-const address = createAddress("a", "b", "c");
+// const address = createAddress("a", "b", "c");
+// console.log(address);
+
+// // Factory Function
+// function createAddress(street, city, zipCode) {
+//      return {
+//           street,
+//           city,
+//           zipCode
+//      };
+// };
+     
+// Constructor Function
+const address = new Address();
+
 console.log(address);
 
-// Factory Function
-function createAddress(street, city, zipCode) {
-     return {
-          street,
-          city,
-          zipCode
-     };
-};
-     
+function Address(street, city, zipCode) {
+     this.street = street;
+     this. city = city;
+     this.zipCode = zipCode;
+}
