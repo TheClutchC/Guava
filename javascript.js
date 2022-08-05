@@ -844,13 +844,28 @@
 //      };
 // };
      
-// Constructor Function
-const address = new Address();
+// // Constructor Function
+// const address = new Address();
 
-console.log(address);
+// console.log(address);
 
-function Address(street, city, zipCode) {
-     this.street = street;
-     this. city = city;
-     this.zipCode = zipCode;
-}
+// function Address(street, city, zipCode) {
+//      this.street = street;
+//      this. city = city;
+//      this.zipCode = zipCode;
+// }
+
+
+const greet = function() {
+     return "hello, world";
+};
+
+const result = greet();
+console.log(result);
+
+// Below is the arrow function version of the above function
+
+const greeet = () => "Hello, World";
+
+const reesuult = greeet();
+console.log("Arrow Function:", reesuult);
