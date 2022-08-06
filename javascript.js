@@ -856,16 +856,67 @@
 // }
 
 
-const greet = function() {
-     return "hello, world";
+// const greet = function() {
+//      return "hello, world";
+// };
+
+// const result = greet();
+// console.log(result);
+
+// // Below is the arrow function version of the above function
+
+// const greeet = () => "Hello, World";
+
+// const reesuult = greeet();
+// console.log("Arrow Function:", reesuult);
+
+// object literals
+
+// let user = {
+//      name: "Crystal",                   // key: value pair
+//      age: 30,
+//      email: "crystal@gmail.com",
+//      location: "Berlin",
+//      blogs: ["Why Mac & Cheese Rules", "10 Things to Make with Jello"]
+// };
+
+// console.log(user);             // calls on user object
+// console.log(user.name);       // access properties by using dot notation
+
+// user.age = 35;                // changes user age from 30 to 35 using dot notation
+// console.log(user.age);        // calls new user age on console
+
+// console.log(user["email"]);   // use quotes for bracket notation
+// user["name"] = "George";    // changes user name from Crystal to George using bracket notation
+// console.log(user["name"]);
+
+// console.log(typeof user);   // logs to the console what data type the "user" variable is
+
+
+let user = {
+     name: "Crystal",                   // key: value pair
+     age: 30,
+     email: "crystal@gmail.com",
+     location: "Berlin",
+     blogs: ["Why Mac & Cheese Rules", "10 Things to Make with Jello"],
+     login: function() {
+          console.log("The user logged in");
+     },
+     logout: function() {
+          console.log("The user logged out");
+     },
+     logBlogs: function() {
+          //console.log(this.blogs);
+          console.log("This user has written the following blogs:");
+          this.blogs.forEach(blog => {
+               console.log(blog);
+          })
+     }
 };
 
-const result = greet();
-console.log(result);
+user.login();              // "The user logged in"
+user.logout();            // "The user logged out"
+user.logBlogs();         // "This user has written the following blogs: (next line) Why Mac & Cheese Rules (next line) 10 Things to Make with Jello"
 
-// Below is the arrow function version of the above function
-
-const greeet = () => "Hello, World";
-
-const reesuult = greeet();
-console.log("Arrow Function:", reesuult);
+const bot = "mario";                     // assigns mario to bot variable
+console.log(bot.toUpperCase());         // makes mario uppercase MARIO
